@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning **Svelte & Laravel**
 
-- 👨‍💻 All of my projects are available at [david.diashorta.com/projects](david.diashorta.com/projects)
+- 👨‍💻 All of my projects are available at [david.diashorta.com/projects](https://david.diashorta.com/projects)
 
 - 💬 Ask me about **Vue, Python, JavaScript**
 
