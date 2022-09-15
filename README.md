@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm David</h1>
-<h3 align="center">A passionate frontend developer located in Switzerland</h3>
+<h3 align="center">A passionate full stack developer located in Switzerland</h3>
 
 - 🔭 I’m currently working on **freeDrive**
 
