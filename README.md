@@ -3,13 +3,13 @@
 
 - 🔭 I’m currently working on **freeDrive**
 
-- 🌱 I’m currently learning **Svelte & Laravel**
+- 🌱 I’m currently learning **PHP & Laravel**
 
 - 👨‍💻 All of my projects are available at [david.diashorta.com/projects](https://david.diashorta.com/projects)
 
-- 💬 Ask me about **Vue, Python, JavaScript**
+- 💬 Ask me about **Python, JavaScript or Vue**
 
-- 📫 How to reach me **dxstiny.gh@gmail.com**
+- 📫 How to reach me: **david@diashorta.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
