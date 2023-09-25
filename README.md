@@ -1,13 +1,9 @@
 <h1 align="center">Hi 👋, I'm David</h1>
 <h3 align="center">A passionate full stack developer located in Switzerland</h3>
 
-- 🔭 I’m currently working on **freeDrive**
-
-- 🌱 I’m currently learning **PHP & Laravel**
-
 - 👨‍💻 All of my projects are available at [david.diashorta.com/projects](https://david.diashorta.com/projects)
 
-- 📫 How to reach me: **david@diashorta.com**
+- 📫 Reach me at: **david@diashorta.com**
 
 <p align="left">
 </p>
