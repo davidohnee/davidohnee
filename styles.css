@@ -39,6 +39,7 @@ a.card {
 .card-header {
     display: flex;
     gap: 1em;
+    align-items: center;
 
     & img,
     .img-placeholder {
