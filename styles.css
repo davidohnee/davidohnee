@@ -1,0 +1,67 @@
+@import url("fonts.css");
+
+:root {
+    --border: #dadada;
+}
+
+body {
+    max-width: 1280px;
+    padding: 4em 2em;
+    margin: 0 auto;
+    background: #f9f9f9;
+
+    & h1:not(:first-child) {
+        margin-top: 1em;
+    }
+}
+
+.card {
+    border: 1px solid var(--border);
+    border-radius: 1em;
+    padding: 1em;
+    background-color: white;
+}
+
+a.card {
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.2s;
+
+    &:hover {
+        background-color: color-mix(
+            in srgb,
+            transparent 80%,
+            var(--border) 20%
+        );
+    }
+}
+
+.card-header {
+    display: flex;
+    gap: 1em;
+
+    & img,
+    .img-placeholder {
+        border-radius: 0.5em;
+        border: 1px solid var(--border);
+        aspect-ratio: 1;
+        height: 3em;
+        width: 3em;
+    }
+
+    .img-placeholder {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.apps .items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+    gap: 1em;
+
+    @media (max-width: 500px) {
+        grid-template-columns: 1fr;
+    }
+}
