@@ -1,14 +1,28 @@
 @import url("fonts.css");
 
 :root {
-    --border: #dadada;
+    --bg: #fff7f4;
+    --text: #000;
+    --border-color: #000;
+
+    --border: 1px solid var(--border-color);
+    --card-hover: color-mix(in srgb, transparent, var(--text) 2%);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #1a1a1a;
+        --text: #fff;
+        --border-color: #fff;
+    }
 }
 
 body {
     max-width: 1280px;
     padding: 4em 2em;
     margin: 0 auto;
-    background: #f9f9f9;
+    background: var(--bg);
+    color: var(--text);
 
     & h1:not(:first-child) {
         margin-top: 1em;
@@ -16,10 +30,33 @@ body {
 }
 
 .card {
-    border: 1px solid var(--border);
-    border-radius: 1em;
-    padding: 1em;
-    background-color: white;
+    padding: 2em 4em;
+    display: block;
+    position: relative;
+
+    &:before,
+    &:after {
+        content: "";
+        position: absolute;
+        background-color: var(--border-color);
+        z-index: 1;
+    }
+
+    &:after {
+        inset: 0;
+        top: auto;
+        height: 1px;
+    }
+
+    &:before {
+        inset: 0;
+        left: auto;
+        width: 1px;
+    }
+
+    & h2 {
+        margin: 0;
+    }
 }
 
 a.card {
@@ -28,11 +65,7 @@ a.card {
     transition: background-color 0.2s;
 
     &:hover {
-        background-color: color-mix(
-            in srgb,
-            transparent 80%,
-            var(--border) 20%
-        );
+        background-color: var(--card-hover);
     }
 }
 
@@ -44,10 +77,11 @@ a.card {
     & img,
     .img-placeholder {
         border-radius: 0.5em;
-        border: 1px solid var(--border);
+        border: var(--border);
         aspect-ratio: 1;
-        height: 3em;
-        width: 3em;
+        height: 2em;
+        width: 2em;
+        padding: 0.5em;
     }
 
     .img-placeholder {
@@ -59,8 +93,11 @@ a.card {
 
 .apps .items {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
-    gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(40ch, 1fr));
+    overflow: hidden;
+
+    border-top: var(--border);
+    border-left: var(--border);
 
     @media (max-width: 500px) {
         grid-template-columns: 1fr;
