@@ -8,6 +8,6 @@
 <p align="left">
 </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=dxstiny&show_icons=true&locale=en&layout=compact" alt="dxstiny" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=davidohnee&show_icons=true&locale=en&layout=compact" alt="davidohnee" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=dxstiny&show_icons=true&locale=en" alt="dxstiny" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=davidohnee&show_icons=true&locale=en" alt="davidohnee" /></p>
