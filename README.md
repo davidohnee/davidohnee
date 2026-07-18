@@ -3,4 +3,4 @@
 
 - 👨‍💻 All of my projects are available at [david.diashorta.com/projects](https://david.diashorta.com/projects)
 
-- 📫 Reach me at: **david@diashorta.com**
+- 📫 Reach me at: **info@davidohnee.com**
